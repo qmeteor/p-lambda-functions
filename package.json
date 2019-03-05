@@ -1,0 +1,23 @@
+{
+  "name": "retouch-upload",
+  "version": "1.0.0",
+  "description": "Insert document for every uploaded image to retouch-assets",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bien",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "aws-sdk": "^2.209.0",
+    "file-system": "^2.2.2",
+    "gm": "^1.23.1",
+    "lodash": "^4.17.5",
+    "moment": "^2.21.0",
+    "path": "^0.12.7",
+    "replace-ext": "^1.0.0",
+    "util": "^0.10.3",
+    "uuid": "^3.2.1"
+  }
+}
